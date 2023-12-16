@@ -1,0 +1,30 @@
+<div mat-dialog-title>
+  <h1>Adicionar Informações</h1>
+</div>
+
+<form [formGroup]="vendForm" (ngSubmit)="onFormSubmit()">
+  <div mat-dialog-content class="content">
+  <div class="row">
+    <mat-form-field appearance="outline">
+      <mat-label>Nome</mat-label>
+      <input matInput placeholder="João Paulo" formControlName="nome">
+    </mat-form-field>
+
+    <mat-form-field appearance="outline">
+      <mat-label>Salário Fixo</mat-label>
+      <input matInput placeholder="1320" type="number" formControlName="salarioFixo">
+    </mat-form-field>
+
+    <mat-form-field appearance="outline">
+      <mat-label>Total de Vendas</mat-label>
+      <input matInput placeholder="1000" type="number" formControlName="totalVendas">
+    </mat-form-field>
+
+  </div>
+
+  </div>
+  <div mat-dialog-actions class="actions">
+    <button mat-raised-button>Cancel</button>
+    <button mat-raised-button color="primary" type="submit" (click)="salarioFinal()">Save</button>
+  </div>
+</form>

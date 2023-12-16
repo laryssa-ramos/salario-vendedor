@@ -1,0 +1,19 @@
+.content{
+  padding-top: 10px;
+
+  .row{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+  }
+
+}
+
+.actions{
+  padding: 0px 25px 20px;
+
+  button{
+    flex: 1;
+  }
+}
+

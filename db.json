@@ -1,0 +1,33 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "vendedores": [
+    {
+      "nome": "Luana",
+      "salarioFixo": 1200,
+      "totalVendas": 500,
+      "id": 1
+    },
+    {
+      "nome": "Felipe",
+      "salarioFixo": 2000,
+      "totalVendas": 450,
+      "id": 2
+    }
+  ]
+}
